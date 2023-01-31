@@ -41,7 +41,7 @@ int main()
 
 int main()
 {
-    char dest[100] = "Hello ";
+    char dest[100] = "Hello "; 
     char src[40] = "World";
 
     strcat(dest, src);
