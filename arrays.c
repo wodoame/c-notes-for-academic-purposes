@@ -17,3 +17,5 @@ int main() {
 
     return 0;
 }
+
+int arr[] = {1, 2, 3, 4, 5}; // you can initialize the array with values
