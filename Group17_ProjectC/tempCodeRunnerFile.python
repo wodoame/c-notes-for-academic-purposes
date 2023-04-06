@@ -1,0 +1,22 @@
+#trying to determine if the last letter of any word is a vowel
+# vowel = ["a", "e", "i", "o", "u"]
+# string = input('enter any string to determine if it ends with a vowel? ')
+# for i in string:
+#     for j in vowel:
+#         if string[-1] == j:
+#             print('true')
+#         else:
+#             print('false')
+
+string = "welcome to the new world"
+end = "orld"
+
+
+x = len(string)
+y = len(end)
+
+if string[x - y: x] == end: 
+    print(True)
+else: 
+    print(False)
+
